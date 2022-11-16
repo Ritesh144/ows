@@ -1,0 +1,283 @@
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+
+p{
+	font-size: 18px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+h1{
+	font-size: 60px;
+}
+h2{
+	font-size: 45px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size:18px;
+}
+h6 {
+	font-size:14px;
+}
+
+/* header section */
+header{
+	background: wheat;
+}
+.nav-wrapper{
+	max-width: 1200px;
+	background: wheat;
+	margin: 0 auto;
+	position: relative;
+	padding: 7px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav.nav-wrapper ul li{
+	display: inline-block;
+	padding: 0 10px;
+	margin-bottom: 0;
+
+}
+nav.nav-wrapper ul li a{
+	font-size: 20px;
+	font-family: Arial;
+	font-size: bold;
+	color: black;
+	text-decoration: none;
+	
+
+
+}
+button {
+	padding: 8px 15px;
+    font-size: 12px;
+	color: white;
+    line-height: 1.8;
+    border-radius: 3px;
+	background-color: #5cb85c;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+	background-color: green;
+
+}
+header .logo img{
+	max-width: 250px;
+}
+
+.section_1, .section_2 {
+    padding: 10% 10px;
+}
+
+.Hero {
+
+	background-image: url(./img/ARF_Slider.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.section_1 h1 {
+    color: #fff;
+    margin-bottom: 0px;
+}
+.section_2 h1 {
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.bgsilder {
+    display: flex;
+}
+.section_1 p {
+    font-weight: 800;
+    color: #333;
+    text-align: center;
+}
+.about-right, .about-left {
+    width: 50%;
+}
+.about-left img {
+    width: 100%;
+	text-align: center;
+}
+.about-right h3 {
+    text-align: center;
+    background: #3A56A1;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+	font-weight: 400;
+}
+.about-right b {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.about-right p {
+    text-align: justify;
+}
+.service-bottom {
+    display: flex;
+}
+.our-services h2 {
+	color: #fff;
+}
+
+section.our-services, .contact-us {
+    padding: 50px 20px;
+	background: #3A56A1;
+}
+.our-serv-left {
+    background: #fff;
+    padding: 20px 20px;
+    margin: 17px;
+}
+.Industry-inside {
+	display: flex;
+}
+.our-serv-midd {
+    background: #dcebdd ;
+}
+
+.btn {
+    text-align: center;
+}
+button {
+    margin: 0 auto !important;
+    display: block;
+}
+.our-serv-left p {
+    font-size: 14px;
+}
+.serv-hed, .contact-head h3 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.ind-inn-first img {
+    width: 100%;
+}
+.ind-inn-first {
+    margin: 15px;
+    background: #f5f5f5;
+    border: 1px solid #dfdfdf;
+}
+.Industry-heading h3, .cover-hed {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #337ab7;
+}
+.ind-inn-first h4 {
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-bott {
+    margin-top: 20px;
+    display: flex;
+}
+.contact-left, .contact-right {
+    width: 50%;
+}
+form {
+    /* width: 100%;
+    display: grid; */
+    padding-right: 50px;
+}
+
+
+input[type="text"], input[type="email"], input[type="number"], textarea {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact-right img {
+    width: 100%;
+}
+
+footer .footer-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    padding: 50px 0 0;
+}
+.footer-inner-con h5{
+    margin: 0px;
+    
+}
+
+.footer-inner-con, ul.Services,ul.Address,ul.Contact {
+    
+    text-decoration: none;
+    padding: 0px;
+    list-style: none;
+    color: #F20C78;
+    font-weight: bold;    
+ }
+
+
+
+hr {
+    width: 15%;
+    display: inline-block;
+    border: 1px solid orange;
+    
+}
+
+
+
+.icon {
+    font-size: 25px;
+}
+
+
+
+
+footer img {
+    width: 250px;
+}
+
+
+.footer-bot {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+}
+.footer-bot p{
+    font-size: 12px;
+    text-align: center;
+}
